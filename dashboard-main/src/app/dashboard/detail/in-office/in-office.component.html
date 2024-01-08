@@ -1,0 +1,10 @@
+<div class="schedule">
+	<ul>
+		<li *ngFor="let apt of aptsInOffice">
+		<span>{{ apt.fname }} {{ apt.lname}} | {{apt.dob}} Age: {{apt.age}}</span><br>
+		<span>{{apt.aptTimeRange.start}} - {{apt.aptTimeRange.end}} * {{apt.aptType}}</span><br>
+		<span>{{apt.location}}: {{apt.pcSurgeon}}</span><br>
+		<span>*Note {{apt.noteStatus}} - *Charge {{apt.chargeStatus}}</span>
+		</li>
+	</ul>
+</div>

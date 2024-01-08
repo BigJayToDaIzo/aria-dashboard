@@ -1,0 +1,31 @@
+.dashboard {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  column-gap: 10px;
+  background-color: #f3fcfc;
+  padding: .5rem .5rem;
+
+}
+
+.left-column-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+}
+
+.leftColumn {
+  
+}
+
+.calendar{
+
+}
+
+.util-one {
+  
+}
+
+.util-two {
+
+}

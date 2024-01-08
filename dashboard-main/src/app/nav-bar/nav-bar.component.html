@@ -1,0 +1,57 @@
+<nav>
+  <div class="appNavbar">
+    <div class="left">
+      <a 
+        routerLink="/dashboard"
+        routerLinkActive="activebutton">
+        <img src="../assets/logo.png" class="logo">
+      </a>
+      <div class="module_buttons">
+        <a 
+          routerLink="/dictation"
+          routerLinkActive="activebutton">
+          <button mat-mini-fab color="primary">
+            <mat-icon>mic</mat-icon>
+          </button>
+        </a>
+        <button mat-mini-fab color="primary" disabled>
+          <mat-icon>account_circle</mat-icon>
+        </button>
+        <button mat-mini-fab color="primary" disabled>
+          <mat-icon>language</mat-icon> 
+        </button>
+        <button mat-mini-fab color="primary" disabled>
+          <mat-icon>shopping_bag</mat-icon>
+        </button>
+      </div>
+      
+    </div>
+    <div class="searchBar">
+      <app-search-bar></app-search-bar>
+    </div>
+    <div class="right">
+      <div class="right-col-buttons">
+        <a 
+        routerLink="/inbox"
+        routerLinkActive="activebutton">
+          <button mat-mini-fab color="primary">
+            <mat-icon>mail</mat-icon>
+          </button>
+        </a>
+        <a 
+          routerLink="/help"
+          routerLinkActive="activebutton">
+          <button mat-mini-fab color="primary">
+            <mat-icon>question_mark</mat-icon>
+          </button>
+        </a>
+        <a 
+          routerLink="/login"
+          routerLinkActive="activebutton">
+          <button mat-raised-button color="primary">Log In</button>
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+

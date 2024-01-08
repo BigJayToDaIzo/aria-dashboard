@@ -1,0 +1,7 @@
+<mat-card>
+  <mat-card-header>
+    {{selectedDate}}
+  </mat-card-header>
+  <mat-calendar [selected]="selectedDate" (selectedChange)="onSelect($event)"></mat-calendar>
+  
+</mat-card>
